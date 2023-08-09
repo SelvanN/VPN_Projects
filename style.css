@@ -1,74 +1,84 @@
- .container{
+ .container {
    margin: 0 20px;
    padding: 0;
  }
 
- .header{
+ .header {
    display: flex;
    justify-content: space-between;
    align-items: center;
    /* background-color: #F6F6F6; */
  }
 
- .menuIcon{
+ .menuIcon {
    display: none;
  }
- 
- .logo{
+
+ .logo {
    display: flex;
  }
 
- .logo img{
+ .logo img {
    width: 25px;
  }
 
- .logoText{
+ .logoText {
    font-weight: bold;
    position: relative;
    top: 5px;
  }
 
- .menu ul{
+ .menu ul {
    display: flex;
    list-style: none;
    gap: 15px;
    color: #4F5665;
  }
 
- .signIn, .signUp {
+ .menu ul a {
+   text-decoration: none;
+ }
+
+ .menu ul a:hover {
+   color: aqua;
+ }
+
+
+ .signIn,
+ .signUp {
    font-weight: bold;
    padding: 5px 15px;
    border-radius: 30px;
    background-color: white;
-   border:  1px solid white;
+   border: 1px solid white;
  }
 
- .signUp{
-   color:red;
+ .signUp {
+   color: red;
    border: 1px solid red;
  }
 
- .homeScreen{
+ .homeScreen {
    display: flex;
    margin: 40px 0px;
    justify-content: center;
    align-items: center;
  }
 
- .leftHome{
+ .leftHome {
    width: 50%;
  }
 
- .heading{
+ .heading {
    font-size: 50px;
    font-weight: 500;
  }
 
- .subHeading{
-    color: #4F5665;
+ .subHeading {
+   color: #4F5665;
  }
 
- .homeButton{
+ .homeButton {
    margin-top: 30px;
    width: 150px;
    text-align: center;
@@ -79,22 +89,22 @@
    border-radius: 5px;
  }
 
- .rightHome{
+ .rightHome {
    width: 50%;
  }
 
- .homeImage{
+ .homeImage {
    width: 350px;
  }
 
- .homePattern{
+ .homePattern {
    width: 100%;
    display: flex;
    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
    /* background-color: tomato; */
  }
 
- .pattern1{
+ .pattern1 {
    padding: 45px 35px;
    width: 33%;
    display: flex;
@@ -110,21 +120,21 @@
    margin: 25px 0;
  }
 
- .p1Img{
+ .p1Img {
    width: 35px;
    height: 35px;
  }
 
- .p1Content1{
+ .p1Content1 {
    font-weight: bold;
  }
 
- .p1Content2{
-    color: #4F5665;
+ .p1Content2 {
+   color: #4F5665;
 
  }
 
- .featureScreen{
+ .featureScreen {
    margin: 30px 0;
    padding: 50px 0;
    display: flex;
@@ -133,7 +143,7 @@
    width: 100%;
  }
 
- .leftFeature{
+ .leftFeature {
    width: 50%;
  }
 
@@ -141,12 +151,12 @@
    width: 300px;
  }
 
- .heading2{
-    font-weight: bold;
-    font-size: 30px;
+ .heading2 {
+   font-weight: bold;
+   font-size: 30px;
  }
 
- .rightFeature{
+ .rightFeature {
    width: 50%;
  }
 
@@ -161,21 +171,21 @@
  }
 
 
- .planScreen{
+ .planScreen {
    margin-top: 10px;
  }
 
- .planHeading{
+ .planHeading {
    text-align: center;
    font-size: 35px;
  }
 
- .planSubHeading{
-  text-align: center;
-  color: #4F5665 ;
+ .planSubHeading {
+   text-align: center;
+   color: #4F5665;
  }
 
- .planContainer{
+ .planContainer {
    /* background-color: brown; */
    padding: 50px;
    display: flex;
@@ -184,7 +194,7 @@
    gap: 30px;
  }
 
- .plan{
+ .plan {
    background-color: white;
    padding: 20px;
    display: flex;
@@ -197,27 +207,27 @@
    border-radius: 5px;
  }
 
- .planImage{
+ .planImage {
    width: 100px;
    /* paddin */
  }
 
- .planText{
+ .planText {
    font-weight: bold;
    padding-top: 20px;
  }
 
- .plan ol{
+ .plan ol {
    list-style: none;
    padding-left: 10px;
  }
 
- .plan li{
+ .plan li {
    line-height: 25px;
    color: #4F5665;
  }
 
- .plan img{
+ .plan img {
    padding-right: 10px;
  }
 
@@ -228,11 +238,11 @@
  }
 
  .planCost span {
-  color: #4F5665;
-  font-weight: none;
+   color: #4F5665;
+   font-weight: none;
  }
 
- .planButton{
+ .planButton {
    position: absolute;
    bottom: 10px;
    color: red;
@@ -242,16 +252,16 @@
    font-weight: bold;
  }
 
- .activePlan{
+ .activePlan {
    border: 1px solid red;
  }
 
- .activePlanButton{
+ .activePlanButton {
    background-color: red;
    color: white;
  }
 
- .networkScreen{
+ .networkScreen {
    margin: 30px 0;
    display: flex;
    flex-direction: column;
@@ -259,24 +269,25 @@
    align-items: center;
  }
 
- .netHeading{
+ .netHeading {
    font-size: 30px;
  }
 
- .netSubHeading{
-   color:#4F5665;
+ .netSubHeading {
+   color: #4F5665;
    padding: 10px 0 50px 0;
  }
 
- .worldMap, .sponsor{
+ .worldMap,
+ .sponsor {
    width: 75%;
  }
 
- .reviewPage{
+ .reviewPage {
    text-align: center;
  }
 
- .cards{
+ .cards {
    margin-top: 2%;
    width: 100%;
    display: flex;
@@ -286,7 +297,7 @@
    box-sizing: border-box;
  }
 
- .card{
+ .card {
    /* background-color: rgb(236, 231, 231); */
    width: 300px;
    padding: 20px;
@@ -295,25 +306,25 @@
    border: 1px solid #dddddd;
  }
 
- .cardInfo{
+ .cardInfo {
    display: flex;
    justify-content: space-evenly;
    gap: 10px;
    margin-bottom: 10px;
  }
 
- .userRating{
+ .userRating {
    margin-left: 5px;
    display: flex;
    align-items: center;
    gap: 5px;
  }
 
- .activeCard{
+ .activeCard {
    border: 1px solid red;
  }
 
- .subscribe{
+ .subscribe {
    /* background-color:; */
    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
    padding: 30px;
@@ -321,13 +332,13 @@
    position: relative;
  }
 
- .subscribeHeading{
-    font-size: 35px;
-    width: 60%;
-    margin: 15px 0;
+ .subscribeHeading {
+   font-size: 35px;
+   width: 60%;
+   margin: 15px 0;
  }
 
- .subscribeBtn{
+ .subscribeBtn {
    position: absolute;
    right: 10%;
    top: 35%;
@@ -339,187 +350,198 @@
    text-align: center;
  }
 
- .subscribeBtn:hover{
+ .subscribeBtn:hover {
    background-color: royalblue;
    cursor: pointer;
  }
 
- .footer{
+ .footer {
    margin: 40px 10px;
    /* background-color: #f8f8f8; */
    position: relative;
  }
-/* 
+
+ /* 
  .logo{
 
  } */
 
- .details{
+ .details {
    width: 35%;
    margin: 35px 0;
  }
 
- .footerMenu{
+ .footerMenu {
    display: flex;
    position: absolute;
    margin-top: -35px;
-   top:0;
+   top: 0;
    right: 0;
    justify-content: space-between;
  }
 
- 
- .products{
+
+ .products {
    margin: 20px;
-  }
-  
-  .products ol li {
-    list-style: none;
-    line-height: 30px;
-    color: #4F5665;
-  }
+ }
 
-  .footerTitle{
-    font-weight: bold;
-    color: black;
-  }
+ .products ol li {
+   list-style: none;
+   line-height: 30px;
+   color: #4F5665;
+ }
 
-  .socialIcons img{
-    cursor: pointer;
-    margin-left: -15px;
-  }
+ .footerTitle {
+   font-weight: bold;
+   color: black;
+ }
 
-  .copyRights{
-    color: #4F5665;
+ .footerHome a {
+   text-decoration: none;
+   color: red;
+ }
 
-  }
 
-  /* mobile design */
-  @media only screen and (max-width: 600px) {
-    /* .header {
+ .socialIcons img {
+   cursor: pointer;
+   margin-left: -15px;
+ }
+
+ .copyRights {
+   color: #4F5665;
+
+ }
+
+ /* mobile design */
+ @media only screen and (max-width: 600px) {
+   /* .header {
       display: none;
     } */
 
-    .menuIcon img {
-      width: 25px;
-    }
+   .menuIcon img {
+     width: 25px;
+   }
 
-    .menuIcon{
-      display: block;
-    }
+   .menuIcon {
+     display: block;
+   }
 
-    .menu, .headerButtons{
-      display: none;
-    }
+   .menu,
+   .headerButtons {
+     display: none;
+   }
 
-    .mobileMenu{
-      display: none;
-      flex-direction: column;
-      gap: 10%;
-      position: fixed;
-      right: 0;
-      top: 0;
-      margin: 0;
-      width: 40%;
-      height: 100vh;
-      background-color: white;
-      padding: 20px 10px;
-    }
+   .mobileMenu {
+     display: none;
+     flex-direction: column;
+     gap: 10%;
+     position: fixed;
+     right: 0;
+     top: 0;
+     margin: 0;
+     width: 40%;
+     height: 100vh;
+     background-color: white;
+     padding: 20px 10px;
+   }
 
-    .mobileMenu ul{
-      width: 100%;
-    }
+   .mobileMenu ul {
+     width: 100%;
+   }
 
-    .mobileMenu ul li{
-      width: 100%;
-      list-style: none;
-      padding: 8px 10px;
-      margin-left: -40px;
-      border-bottom: 1px solid grey;
-    }
+   .mobileMenu ul li {
+     width: 100%;
+     list-style: none;
+     padding: 8px 10px;
+     margin-left: -40px;
+     border-bottom: 1px solid grey;
+   }
 
-    .mobileMenu ul li:hover{
-        background-color: black;
-        color: white
-    }
+   .mobileMenu ul li:hover {
+     background-color: black;
+     color: white
+   }
 
-    .mHeaderButtons{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
+   .mHeaderButtons {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+   }
 
-    .menuIcon:hover > .mobileMenu {
-      display: flex;
-    }
+   .menuIcon:hover>.mobileMenu {
+     display: flex;
+   }
 
-    .homeScreen{
-      flex-direction: column;
-      width: 100%;
-    }
+   .homeScreen {
+     flex-direction: column;
+     width: 100%;
+   }
 
-    .leftHome, .rightHome{
-      width: 100%;
-      margin: auto;
-    }
+   .leftHome,
+   .rightHome {
+     width: 100%;
+     margin: auto;
+   }
 
-    .homePattern{
-      flex-direction: column;
-    }
+   .homePattern {
+     flex-direction: column;
+   }
 
-    .homePattern span{
-      margin: 0 30px;
-      width: 80%;
-      height: 1px;
-    }
-    .featureScreen{
-      flex-direction: column;
-    }
+   .homePattern span {
+     margin: 0 30px;
+     width: 80%;
+     height: 1px;
+   }
 
-    .leftFeature, .rightFeature{
-      width: 100%;
-      margin: auto;
-    }
+   .featureScreen {
+     flex-direction: column;
+   }
 
-    .planContainer{
-      flex-direction: column;
-    }
+   .leftFeature,
+   .rightFeature {
+     width: 100%;
+     margin: auto;
+   }
 
-    .subscribe{
-      min-width: 200px;
-      margin: 30px;
-    }
+   .planContainer {
+     flex-direction: column;
+   }
 
-    .subscribeHeading{
-      width: auto;
-      font-size: 25px;
-    }
+   .subscribe {
+     min-width: 200px;
+     margin: 30px;
+   }
 
-    .subscribeBtn{
-      position: unset;
-      margin-left: -10px;
-      margin-top: 10px;
-      padding: 10px;
-    }
+   .subscribeHeading {
+     width: auto;
+     font-size: 25px;
+   }
 
-    .details{
-      width: 80%;
-    }
+   .subscribeBtn {
+     position: unset;
+     margin-left: -10px;
+     margin-top: 10px;
+     padding: 10px;
+   }
 
-    .footerMenu{
-      position: relative;
-      display: block;
-      top: 30px;
-      padding-bottom: 20px;
-    }
+   .details {
+     width: 80%;
+   }
 
-    .products{
-      margin: 0 0 0 -40px
-    }
+   .footerMenu {
+     position: relative;
+     display: block;
+     top: 30px;
+     padding-bottom: 20px;
+   }
 
-    .socialIcons{
-      margin-top: 20px;
-    }
+   .products {
+     margin: 0 0 0 -40px
+   }
 
-  }
+   .socialIcons {
+     margin-top: 20px;
+   }
+
+ }

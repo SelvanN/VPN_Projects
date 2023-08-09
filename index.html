@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,32 @@
   <title>Vpn Website</title>
   <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
   <div class="container">
-    <div class="header">
+    <div class="header" id="LaslesVPN ?">
       <div class="logo">
-        <img src="images/logo.png" >
+        <img src="images/logo.png">
         <div class="logoText">LaslesVPN</div>
       </div>
       <div class="menu">
-        <ul>
-          <li>About</li>
-          <li>Features</li>
-          <li>Pricing</li>
-          <li>Testimonals</li>
-          <li>Help</li>
-        </ul>
+        <nav>
+          <ul>
+            <a href="#About">About</a>
+            <a href="#Features">Features</a>
+            <a href="#Pricing">Pricing</a>
+            <a href="#Network">Network</a>
+            <a href="#Testimonals">Testimonals</a>
+            <a href="#Help">Help</a>
+          </ul>
+        </nav>
       </div>
       <div class="headerButtons">
         <button class="signIn">Sign In</button>
         <button class="signUp">Sign Up</button>
       </div>
       <div class="menuIcon">
-        <img src="images/menuIcon.svg" >
+        <img src="images/menuIcon.svg">
         <div class="mobileMenu">
           <ul>
             <li>About</li>
@@ -44,10 +49,11 @@
         </div>
       </div>
     </div>
-    <div class="homeScreen">
+    <div class="homeScreen" id="About">
       <div class="leftHome">
         <div class="heading">Want anything to be easy with LaslesVPN.</div>
-        <div class="subHeading">Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.</div>
+        <div class="subHeading">Provide a network for all your needs with ease and fun using LaslesVPN discover
+          interesting features from us.</div>
         <button class="homeButton">Get Started</button>
       </div>
       <div class="rightHome">
@@ -79,24 +85,26 @@
         </div>
       </div>
     </div>
-    <div class="featureScreen">
+    <div class="featureScreen" id="Features">
       <div class="leftFeature">
         <img src="images/Illustration 2.png">
       </div>
       <div class="rightFeature">
         <div class="heading2">We Provide Many Features You Can Use</div>
-        <div class="subHeading">You can explore the features that we provide with fun and have their own functions each feature.</div>
-          <ol class="list">
-            <li><img src="images/tick.png">Powerfull online protection.</li>
-            <li><img src="images/tick.png">Internet without borders.</li>
-            <li><img src="images/tick.png">Supercharged VPN</li>
-            <li><img src="images/tick.png">No specific time limits.</li>
-          </ol>
-        </div>
-    </div> -->
-  <div class="planScreen">
+        <div class="subHeading">You can explore the features that we provide with fun and have their own functions each
+          feature.</div>
+        <ol class="list">
+          <li><img src="images/tick.png">Powerfull online protection.</li>
+          <li><img src="images/tick.png">Internet without borders.</li>
+          <li><img src="images/tick.png">Supercharged VPN</li>
+          <li><img src="images/tick.png">No specific time limits.</li>
+        </ol>
+      </div>
+    </div>
+    <div class="planScreen" id="Pricing">
       <div class="planHeading">Choose Your Plan</div>
-      <div class="planSubHeading">Let's choose the package that is best for you and explore it happily and cheerfully.</div>
+      <div class="planSubHeading">Let's choose the package that is best for you and explore it happily and cheerfully.
+      </div>
       <div class="planContainer">
         <div class="plan">
           <img class="planImage" src="images/plan.png">
@@ -142,15 +150,16 @@
         </div>
       </div>
     </div>
-    <div class="networkScreen">
+    <div class="networkScreen" id="Network">
       <div class="netHeading">Huge Global Network of Fast VPN</div>
       <div class="netSubHeading">See LaslesVPN everywhere to make it easier for you when you move locations.</div>
       <img class="worldMap" src="images/worldMap.png">
       <img class="sponsor" src="images/sponsor.png">
     </div>
-    <div class="reviewPage">
+    <div class="reviewPage" id="Testimonals">
       <div class="netHeading">Trusted by Thousands of Happy Customer</div>
-      <div class="netSubHeading">These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</div>
+      <div class="netSubHeading">These are the stories of our customers who have joined us with great pleasure when
+        using this crazy feature.</div>
       <div class="cards">
         <div class="card activeCard">
           <div class="cardInfo">
@@ -167,7 +176,8 @@
             </div>
           </div>
           <div class="cardData">
-            “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.
+            “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have
+            been no problems. LaslesVPN always the best”.
           </div>
         </div>
         <div class="card">
@@ -203,18 +213,20 @@
             </div>
           </div>
           <div class="cardData">
-            “This is very unusual for my business that currently requires a virtual private network that has high security.”.
+            “This is very unusual for my business that currently requires a virtual private network that has high
+            security.”.
           </div>
         </div>
       </div>
-    </div><div class="subscribe">
+    </div>
+    <div class="subscribe">
       <div class="subscribeHeading">Subscribe Now for Get Special Features!</div>
       <div class="subscribeSubHeading">Let's subscribe with us and find the fun.</div>
       <div class="subscribeBtn">Subscribe Now</div>
     </div>
-    <div class="footer">
+    <div class="footer" id="Help">
       <div class="logo">
-        <img src="images/logo.png" >
+        <img src="images/logo.png">
         <div class="logoText">LaslesVPN</div>
       </div>
       <div class="details">
@@ -225,7 +237,9 @@
           <ol>
             <div class="footerTitle">Product</div>
             <li>Download</li>
-            <li>Pricing</li>
+            <nav class="footerHome">
+              <a href="#Pricing">Pricing</a>
+            </nav>
             <li>Locations</li>
             <li>Server</li>
             <li>Countries</li>
@@ -235,10 +249,14 @@
         <div class="products">
           <ol>
             <div class="footerTitle">Engage</div>
-            <li>LaslesVPN ? </li>
+            <nav class="footerHome">
+              <a href="#">LaslesVPN ?</a>
+            </nav>
             <li>FAQ</li>
             <li>Tutorials</li>
-            <li>About us</li>
+            <nav class="footerHome">
+              <a href="#About">About us</a>
+            </nav>
             <li>Privacy Policy</li>
             <li>Terms of service</li>
           </ol>
@@ -260,4 +278,5 @@
     </div>
   </div>
 </body>
+
 </html>
