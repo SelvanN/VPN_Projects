@@ -28,21 +28,41 @@
    top: 5px;
  }
 
- .menu ul {
+ .menu nav ul,
+ .mobileMenu nav ul a {
    display: flex;
    list-style: none;
-   gap: 15px;
+   gap: 20px;
    color: #4F5665;
  }
 
- .menu ul a {
+ .mobileMenu nav ul a {
+   margin-bottom: 20px;
+   font-size: 20px;
+ }
+
+
+ /* after visited */
+ a:visited {
+   color: green;
+ }
+
+ a {
    text-decoration: none;
  }
 
- .menu ul a:hover {
-   color: aqua;
+ .mobileMenu nav ul a:hover {
+   color: green;
+
  }
 
+
+
+ .menu nav ul a:hover {
+   color: aqua;
+   font-size: 150%;
+
+ }
 
  .signIn,
  .signUp {
@@ -394,11 +414,17 @@
  .footerTitle {
    font-weight: bold;
    color: black;
+   margin-bottom: 10px;
  }
+
 
  .footerHome a {
    text-decoration: none;
    color: red;
+ }
+
+ .Back_to_home {
+   color: coral;
  }
 
 
