@@ -465,7 +465,7 @@
     align-items: center;
     width: -100%;
     position: fixed;
-    right: 0;
+    right: 15px;
     z-index: 1;
  
   }
