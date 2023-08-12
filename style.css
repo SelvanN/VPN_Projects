@@ -10,6 +10,17 @@
    /* background-color: #F6F6F6; */
  }
 
+ .menu{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   z-index: 1;
+
+ }
+
  .menuIcon {
    display: none;
  }
@@ -439,6 +450,7 @@
  }
 
  /* mobile design */
+
  @media only screen and (max-width: 600px) {
    /* .header {
       display: none;
@@ -447,6 +459,16 @@
    .menuIcon img {
      width: 25px;
    }
+   .menuIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: -100%;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+ 
+  }
 
    .menuIcon {
      display: block;
